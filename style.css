@@ -1,0 +1,36 @@
+.grid_container{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+	justify-items: center;
+	align-items: center;
+	background-color: aqua;
+}
+
+.grid_item_2{
+	grid-row: 5 / -1;
+	grid-column: 1 / 5;
+	background-color: blue;
+}
+
+.grid_item_3{
+	grid-row: 5 / -1;
+	grid-column: 6 / -1;
+	background-color: blue;
+}
+
+.flex_container{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: purple;
+}
+
+.felx_item{
+	background-color: green;
+	color: red;
+}
